@@ -1,5 +1,5 @@
 function loadAlbuns(){
-    document.getElementById('gallery').innerHTML = ``;
+    //document.getElementById('gallery').innerHTML = ``;
 }
 
 window.onload = function(){
