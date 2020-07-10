@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #c16c45;
+    color: #dd2c00;
 }
 
 a:hover, a:active {
@@ -367,7 +367,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #c16c45;
+    background: #dd2c00;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #c16c45;
+    color: #dd2c00;
 }
 
 dd {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #c16c45;
+    background: #dd2c00;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -551,7 +551,7 @@ form,
 
 /*
 .line-scale-pulse-out > div {
-    background-color: #c16c45;
+    background-color: #dd2c00;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -777,7 +777,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #c16c45;
+    -webkit-text-fill-color: #dd2c00;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -837,8 +837,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #c16c45;
-    border-color: #c16c45;
+    background: #dd2c00;
+    border-color: #dd2c00;
     color: #FFFFFF;
 }
 
@@ -878,8 +878,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #c16c45;
-    color: #c16c45;
+    border: 0.2rem solid #dd2c00;
+    color: #dd2c00;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1107,7 +1107,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #c16c45;
+    color: #dd2c00;
 }
 
 .stats-tabs li a em {
@@ -1252,7 +1252,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #c16c45;
+    color: #dd2c00;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1426,7 +1426,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #c16c45;
+    background: #dd2c00;
 }
 
 
@@ -1519,7 +1519,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #c16c45;
+    color: #dd2c00;
 }
 
 .header-nav p {
@@ -1866,8 +1866,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #c16c45;
-    border-right: 2px solid #c16c45;
+    border-bottom: 2px solid #dd2c00;
+    border-right: 2px solid #dd2c00;
     content: '';
     display: block;
     height: 8px;
@@ -1891,7 +1891,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #c16c45;
+    background-color: #dd2c00;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1951,7 +1951,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #c16c45;
+    color: #dd2c00;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2253,7 +2253,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #c16c45;
+    background-color: #dd2c00;
     color: #010507;
     position: relative;
 }
@@ -2534,7 +2534,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #c16c45;
+    color: #dd2c00;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -3128,7 +3128,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #c16c45;
+    background: #dd2c00;
 }
 
 .s-contact .form-field label::after {
@@ -3139,14 +3139,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #c16c45;
+    border-right: 5px solid #dd2c00;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #c16c45;
+    background-color: #dd2c00;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3173,7 +3173,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #c16c45;
+    color: #dd2c00;
 }
 
 .contact-content input[type="email"],
@@ -3200,7 +3200,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #c16c45;
+    border-bottom: 1px solid #dd2c00;
 }
 
 .contact-content button,
@@ -3291,7 +3291,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #c16c45;
+    color: #dd2c00;
 }
 
 .contact-social li:last-child {
@@ -3314,7 +3314,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #c16c45;
+    color: #dd2c00;
 }
 
 .message-warning i, .message-success i {
@@ -3506,7 +3506,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #c16c45;
+    color: #dd2c00;
 }
 
 footer .row {
@@ -3598,8 +3598,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #c16c45;
-    border-color: #c16c45;
+    background: #dd2c00;
+    border-color: #dd2c00;
     padding: 0 20px;
 }
 
@@ -3757,7 +3757,7 @@ footer .row {
 /*# sourceMappingURL=main.css.map */
 
 .header-about-nav {
-    background: #c16c45;
+    background: #dd2c00;
     color: #eee;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.3rem;
@@ -3786,7 +3786,7 @@ footer .row {
 
 @media only screen and (max-width: 400px) {
     .header-about-nav {
-        background: #c16c45;
+        background: #dd2c00;
         color: #eee;
         font-family: "montserrat-light", sans-serif;
         font-size: 1.3rem;
@@ -3818,7 +3818,7 @@ footer .row {
 }
 
 #sobrefull{
-	background: #c16c45;
+	background: #dd2c00;
     color: #eee;
 }
 

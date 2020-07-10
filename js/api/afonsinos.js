@@ -98,7 +98,7 @@ window.onload = function () {
                                                     <img src="images/tunos/${tuno.foto}.jpg" class="img-fluid" alt="" style="height: 200px; width: auto">
                                                 </div>
                                                 <div class="member-info">
-                                                    <h6>Ensaiador Antigo</h6>
+                                                    <h6>Antigo Ensaiador</h6>
                                                     <h4>${tuno.alcunha}</h4>
                                                     <span>${tuno.instrumento}</span>
                                                 </div>
@@ -117,7 +117,7 @@ window.onload = function () {
                                                     <img src="images/tunos/${tuno.foto}.jpg" class="img-fluid" alt="" style="height: 200px; width: auto">
                                                 </div>
                                                 <div class="member-info">
-                                                    <h6>Magister Antigo</h6>
+                                                    <h6>Antigo Magister</h6>
                                                     <h4>${tuno.alcunha}</h4>
                                                     <span>${tuno.instrumento}</span>
                                                 </div>
@@ -136,7 +136,7 @@ window.onload = function () {
                                                     <img src="images/tunos/${tuno.foto}.jpg" class="img-fluid" alt="" style="height: 200px; width: auto">
                                                 </div>
                                                 <div class="member-info">
-                                                    <h6>Ensaiador/Magister Antigo</h6>
+                                                    <h6>Antigo Ensaiador/Magister</h6>
                                                     <h4>${tuno.alcunha}</h4>
                                                     <span>${tuno.instrumento}</span>
                                                 </div>
