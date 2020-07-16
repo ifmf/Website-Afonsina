@@ -2269,6 +2269,10 @@ html.no-csstransitions .home-content__main {
     max-width: 1024px;
 }
 
+.about-desc p{
+    color: rgb(233, 233, 233);
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## about stats
