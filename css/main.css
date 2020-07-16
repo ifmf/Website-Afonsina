@@ -4000,3 +4000,8 @@ footer .row {
   .row-striped {
       padding: 15px 0;
   }
+
+.img-fluid {
+    height: auto;
+    width: 200px;
+}

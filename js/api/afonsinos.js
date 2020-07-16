@@ -57,7 +57,7 @@ window.onload = function () {
                                         <div class="col-lg-3 col-md-6">
                                             <div class="member">
                                                 <div class="member-img">
-                                                    <img src="images/tunos/${tuno.foto}.jpg" class="img-fluid" alt="" style="height: 200px; width: auto">
+                                                    <img src="images/tunos/${tuno.foto}.jpg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="member-info">
                                                     <h6>Atual Magister</h6>
@@ -102,7 +102,7 @@ window.onload = function () {
                                                     <h4>${tuno.alcunha}</h4>
                                                     <span>${tuno.instrumento}</span>
                                                 </div>
-                                                <a href="#" class="badge-corner badge-corner-dark">
+                                                <a href="" style="pointer-events: none; cursor: default;" class="badge-corner badge-corner-dark">
                                                         <span class="fa fa-music"></span>
                                                     </a>
                                             </div>
