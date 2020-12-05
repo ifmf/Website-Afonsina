@@ -3732,8 +3732,7 @@ footer .row {
     font-size: 1.3rem;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
-    height: 20%;
-    width: 800px;
+    height: auto;
     margin: auto;
 }
 
@@ -3762,7 +3761,7 @@ footer .row {
         line-height: 1.846;
         padding: 3.6rem 3rem 3.6rem 3.6rem;
         height: 20%;
-        width: 400px;
+        width: auto;
         margin: auto
     }
 
@@ -3784,11 +3783,19 @@ footer .row {
     .header-logo {
         left: 10px;
     }
+
+    .nav {
+        display: block;
+    }
 }
 
 #sobrefull{
 	background: #812a0e;
     color: #eee;
+}
+
+.nav {
+    display: inline-block !important;
 }
 
 

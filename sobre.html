@@ -58,7 +58,7 @@
             </a>
         </div>
 
-        <nav class="navbar navbar-expand-sm justify-content-center header-about-nav">
+        <!--<nav class="navbar navbar-expand-sm justify-content-center header-about-nav">
             <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-historia-tab" data-toggle="tab" href="#historia" role="tab"
                     aria-controls="nav-historia" aria-selected="true">História</a>
@@ -68,10 +68,10 @@
                     aria-controls="nav-traje" aria-selected="false">Traje</a>
                 <a class="nav-item nav-link" id="nav-afonsinos-tab" data-toggle="tab" href="#afonsinos" role="tab"
                     aria-controls="nav-afonsinos" aria-selected="false">Afonsinos</a>
-                <!--<a class="nav-item nav-link" id="nav-cidadeberço-tab" data-toggle="tab" href="#cidadeberço" role="tab"
-                    aria-controls="nav-cidadeberço" aria-selected="false">Cidade Berço</a-->
+                <!-<a class="nav-item nav-link" id="nav-cidadeberço-tab" data-toggle="tab" href="#cidadeberço" role="tab"
+                    aria-controls="nav-cidadeberço" aria-selected="false">Cidade Berço</a->
             </div>
-        </nav>
+        </nav>-->
 
         <nav class="header-nav">
 
@@ -83,6 +83,21 @@
                 <ul class="header-nav__list">
                     <li class="current"><a href="/" title="home">Página Principal</a></li>
                     <li><a href="#" title="sobre">Sobre a Tuna</a></li>
+                    <li>
+                        <ul class="nav" id="nav-tab" role="tablist">
+                            <li><a class="current active" id="nav-historia-tab" data-toggle="tab" href="#historia"
+                                    role="tab" aria-controls="nav-historia" aria-selected="true">História</a>
+                            </li>
+                            <li><a id="nav-brasao-tab" data-toggle="tab" href="#brasao" role="tab"
+                                    aria-controls="nav-brasao" aria-selected="false">Brasão</a></li>
+                            <li><a class="" id="nav-traje-tab" data-toggle="tab" href="#traje" role="tab"
+                                    aria-controls="nav-traje" aria-selected="false">Traje</a></li>
+                            <li><a class="" id="nav-afonsinos-tab" data-toggle="tab" href="#afonsinos" role="tab"
+                                    aria-controls="nav-afonsinos" aria-selected="false">Afonsinos</a></li>
+                            <!--<a class="nav-item nav-link" id="nav-cidadeberço-tab" data-toggle="tab" href="#cidadeberço" role="tab"
+                                    aria-controls="nav-cidadeberço" aria-selected="false">Cidade Berço</a-->
+                        </ul>
+                    </li>
                     <!--<li><a class="smoothscroll"  href="#afonsinos" title="afonsinos">Afonsinos</a></li>-->
                     <li><a href="/#atuacoes" title="atuacoes">Atuações</a></li>
                     <!--<li><a class="smoothscroll"  href="#noticias" title="noticias">Notícias</a></li>-->
@@ -91,10 +106,16 @@
 
                 <ul class="header-nav__social">
                     <li>
-                        <a href="https://www.facebook.com/tunaafonsina/"><i class="fa fa-facebook"></i></a>
+                        <a target="__blank" href="https://www.facebook.com/tunaafonsina/"><i
+                                class="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/tunaafonsina/"><i class="fa fa-instagram"></i></a>
+                        <a target="__blank" href="https://www.instagram.com/tunaafonsina/"><i
+                                class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a target="__blank" href="https://open.spotify.com/artist/7fdklvptZpCGNNtwa6NRNt"><i
+                                class="fa fa-spotify" aria-hidden="true"></i></a>
                     </li>
                 </ul>
 
@@ -340,8 +361,8 @@
                                 aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a target="__blank" href="https://open.spotify.com/artist/7fdklvptZpCGNNtwa6NRNt"><i class="fa fa-spotify"
-                                aria-hidden="true"></i></a>
+                        <a target="__blank" href="https://open.spotify.com/artist/7fdklvptZpCGNNtwa6NRNt"><i
+                                class="fa fa-spotify" aria-hidden="true"></i></a>
                     </li>
                 </ul> <!-- end contact-social -->
 
@@ -432,7 +453,7 @@
     <script src="js/api/afonsinos.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    
+
 
     <script>
         $('html, body').animate({ scrollTop: 0 }, 'normal');
