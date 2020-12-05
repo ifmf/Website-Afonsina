@@ -9,14 +9,7 @@ function readTextFile(file, callback) {
     }
     rawFile.send(null);
 }
-//usage:
 
-if (document.getElementById("afonsinos").classList.contains("show")) {
-
-}
-
-
-window.onload = function () {
     readTextFile("js/api/csvjson.json", function (text) {
         var data = JSON.parse(text);
 
@@ -35,11 +28,11 @@ window.onload = function () {
             document.getElementById("afonsinos").innerHTML += `
                                 <div class="section-header has-bottom-sep" data-aos="fade-up" id="${i}geracao">
                                     <div class="col-full">
-                                        <h1 id="h1_${i + 1}" class="subhead subhead--dark">${i}º Geração - Ano ${geracao}</h1>
+                                        <h1 id="h1_${i}" class="subhead subhead--dark">${i}º Geração - Ano ${geracao}</h1>
                                     </div>
-                                    <div class="team row" id="${i + 1}team">`;
+                                    <div class="team row" id="${i}team">`;
 
-            if (document.getElementById("h1_1")) document.getElementById("h1_1").innerHTML = `Geração dos Fundadores - Ano 1994`
+            if (document.getElementById("h1_0")) document.getElementById("h1_0").innerHTML = `Geração dos Fundadores - Ano 1994`
             data.forEach(tuno => {
                 if (tuno.geracao == geracao) {
                     //tuno.funcao == 0 || 1 || 2 || 3 - Talvez seja melhor
@@ -61,7 +54,7 @@ window.onload = function () {
                                 </div>
                             </div>
                         `;*/
-                        document.getElementById(`${i + 1}team`).innerHTML += `
+                        document.getElementById(`${i}team`).innerHTML += `
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="team-block">
                                                 <div class="team-img">
@@ -105,7 +98,7 @@ window.onload = function () {
                                 </div>
                             </div>
                         `;*/
-                        document.getElementById(`${i + 1}team`).innerHTML += `
+                        document.getElementById(`${i}team`).innerHTML += `
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="team-block">
                                                 <div class="team-img">
@@ -149,7 +142,7 @@ window.onload = function () {
                                 </div>
                             </div>
                         `;*/
-                        document.getElementById(`${i + 1}team`).innerHTML += `
+                        document.getElementById(`${i}team`).innerHTML += `
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="team-block">
                                                 <div class="team-img">
@@ -193,7 +186,7 @@ window.onload = function () {
                                 </div>
                             </div>
                         `;*/
-                        document.getElementById(`${i + 1}team`).innerHTML += `
+                        document.getElementById(`${i}team`).innerHTML += `
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="team-block">
                                                 <div class="team-img">
@@ -238,7 +231,7 @@ window.onload = function () {
                                 </div>
                             </div>
                         `;*/
-                        document.getElementById(`${i + 1}team`).innerHTML += `
+                        document.getElementById(`${i}team`).innerHTML += `
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="team-block">
                                                 <div class="team-img">
@@ -279,7 +272,7 @@ window.onload = function () {
                                 </div>
                             </div>
                         `;*/
-                        document.getElementById(`${i + 1}team`).innerHTML += `
+                        document.getElementById(`${i}team`).innerHTML += `
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="team-block">
                                                 <div class="team-img">
@@ -309,5 +302,3 @@ window.onload = function () {
 
 
     });
-
-}

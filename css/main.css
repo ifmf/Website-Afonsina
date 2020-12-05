@@ -515,6 +515,8 @@ form,
     display: none;
 }
 
+.section-header>.row {clear:both}
+
 
 
 /* ===================================================================
@@ -544,9 +546,6 @@ form,
     vertical-align: middle;
     overflow: visible;
     background: url('/images/brasao.gif') no-repeat center center;
-
-    
-
 }
 
 /*
@@ -2108,15 +2107,6 @@ html.no-csstransitions .home-content__main {
     .home-content__main {
         max-width: 490px;
     }
-    .home-content__buttons {
-        padding-top: 1.2rem;
-        text-align: center;
-    }
-    .home-content__buttons .btn {
-        display: block;
-        width: 70%;
-        margin: 1.5rem 0 0 0;
-    }
     .home-social {
         right: 4rem;
     }
@@ -2128,15 +2118,6 @@ html.no-csstransitions .home-content__main {
     }
     .about__scroll {
         right: 7.5rem;
-    }
-    .about__buttons {
-        padding-top: 1.2rem;
-        text-align: center;
-    }
-    .about__buttons .btn {
-        display: block;
-        width: 70%;
-        margin: 1.5rem 0 0 0;
     }
     .about__line {
         right: 5.5rem;
@@ -2196,22 +2177,6 @@ html.no-csstransitions .home-content__main {
         padding-top: 15rem;
         padding-right: 25px;
         width: 85%;
-    }
-    .home-content__buttons {
-        padding-top: 1.2rem;
-    }
-    .home-content__buttons .btn {
-        width: auto;
-        margin: 1.5rem 0 0 0;
-    }
-    .about__buttons {
-        padding-top: 1.2rem;
-        text-align: center;
-    }
-    .about__buttons .btn {
-        display: block;
-        width: 70%;
-        margin: 1.5rem 0 0 0;
     }
     .works__buttons {
         padding-top: 1.2rem;
@@ -2323,7 +2288,7 @@ html.no-csstransitions .home-content__main {
     width: 250px;
     border-color: #000;
     color: #000;
-    margin: 1.5rem 1.5rem 0 0;
+    margin: 1.5rem 0 0 0;
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
